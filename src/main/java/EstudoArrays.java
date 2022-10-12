@@ -45,7 +45,7 @@ public class EstudoArrays {
             soma += nota;
         }
 
-        double media = soma / notasProva.length;
+        double media = soma / notasProvas.length;
 
         //Condição ternária
         String mensagem = (media < 7) ? "Você está reprovado" : "Você está aprovado";
